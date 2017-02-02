@@ -22,7 +22,7 @@ public class YellowLight : ILightState
     }
     public void ToGreen()
     {
-        Debug.Log("Red -> Green?");
+        Debug.Log("Yellow -> Green?");
     }
     public void ToRed()
     {
