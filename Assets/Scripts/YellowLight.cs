@@ -17,7 +17,7 @@ public class YellowLight : ILightState
         yLight.GetComponent<Renderer>().material.color = Color.yellow;
         light.currentState = light.yellowLight;
         timer += Time.deltaTime;
-        if (timer >= 1.5)
+        if (timer >= 3)
             ToRed();
     }
     public void ToGreen()
